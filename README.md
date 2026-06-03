@@ -15,7 +15,6 @@ Below is the optimized performance model mapping driver stint consistency agains
 ## Challenges
 1. **Race-Start Outlier Filtering:** Initial race-start congestion and heavy-fuel formation laps caused massive spikes (>113s) in early time-series data. Implemented a filtering threshold to remove laps above 95 seconds to isolate true racing pace.
 2. **In-Lap Anomaly Removal:** Pit lane deceleration loops artificially inflate the final lap time of a stint. Isolated and dropped in-laps to ensure the linear regression (`np.polyfit`) captured pure rubber degradation rather than operational pit-stop noise.
-3. **API Pipeline Resilience:** Handled upstream live-timing server dropouts and connection timeouts by configuring explicit local caching mechanisms (`fastf1.Cache`), ensuring local runtime stability despite fluctuating external network endpoints.
 
 ## Techical Stack 
 * **Language:** Python
