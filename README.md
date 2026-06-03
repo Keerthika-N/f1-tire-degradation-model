@@ -20,5 +20,5 @@ Below is the optimized performance model mapping driver stint consistency agains
 ## Techical Stack 
 * **Language:** Python
 * **Data Libraries:** Pandas (Time-delta processing, feature slicing), NumPy (Polynomial regression modeling)
-* **Visualization:** Matplotlib (Custom thematic styling, data-point alpha blending, multi-series overlays)
+* **Visualization:** Matplotlib (Custom thematic styling, multi-series overlays)
 * **Data Source:** FastF1 API (Official F1 Live Timing Client)
