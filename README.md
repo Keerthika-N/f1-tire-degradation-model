@@ -2,7 +2,7 @@
 **An end-to-end data analytics project modeling time-series telemetry from the 2024 Abu Dhabi Grand Prix using Python, Pandas, and NumPy.**
 
 ## Project Overview 
-In Formula 1 racing, tire management is the ultimate diffrentior between winning and losing. This project extracts high-frequency lap data using the `FastF1` API to construct a statistical regression model that quantifies and compares the tire degradation rates of Scuderia Ferrari teammates Charles Leclerc and Carlos Sainz during their opening race stints in 2024 at Abu Dhabi Grand Prix.
+In Formula 1 racing, tire management is the ultimate diffrentior between winning and losing. This project extracts high-frequency lap data using the `FastF1` API to construct a statistical regression model that quantifies and compares the tire degradation rates of previous Scuderia Ferrari teammates Charles Leclerc and Carlos Sainz during their race stints in 2024 at Abu Dhabi Grand Prix.
 
 ## Key Analytical Insights
 * **The Strategic Delta:** While Charles Leclerc exhibited a standard linear degradation curve, Carlos Sainz maintained a near-zero slope baseline pace. This mathematically demonstrates elite tire management where Sainz's conservation techniques perfectly offset the mechanical grip loss as fuel weight decreased.
